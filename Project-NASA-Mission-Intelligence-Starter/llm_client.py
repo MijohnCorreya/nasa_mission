@@ -18,11 +18,11 @@ When answering questions:
 
     # Set context in messages — system message includes the retrieved document context
     messages = [
-        {
-            "role": "system",
-            "content": f"{system_prompt}\n\n{context}" if context else system_prompt
-        }
-    ]
+    {
+        "role": "system",
+        "content": f"{system_prompt}\n\nContext:\n{context}" if context else system_prompt
+    }
+]
 
     # Add chat history (exclude the current user message, already appended below)
     for entry in conversation_history:
@@ -52,3 +52,4 @@ When answering questions:
 
     # Return response
     return response.choices[0].message.content
+

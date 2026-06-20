@@ -10,8 +10,7 @@ import streamlit as st
 import os
 import json
 import pandas as pd
-
-#import ragas_evaluator
+import ragas_evaluator
 import rag_client
 import llm_client
 
