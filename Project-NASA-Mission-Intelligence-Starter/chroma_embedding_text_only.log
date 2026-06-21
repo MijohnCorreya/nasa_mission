@@ -4950,3 +4950,205 @@ Mission breakdown:
 Collection:               nasa_space_missions_text
 2026-06-18 19:13:51,260 - INFO - Total docs in collection: 16922
 2026-06-18 19:13:51,260 - INFO - Pipeline completed successfully!
+2026-06-20 10:34:34,346 - INFO - Initializing ChromaDB Embedding Pipeline...
+2026-06-20 10:34:35,022 - INFO - Initialized collection 'nasa_space_missions_text' with 16922 existing documents.
+2026-06-20 10:34:35,022 - INFO - Starting text data processing with update mode: skip
+2026-06-20 10:34:35,022 - INFO - Scanning directory: data_text/apollo11
+2026-06-20 10:34:35,023 - INFO - Found 6 text files in apollo11
+2026-06-20 10:34:35,023 - INFO - Scanning directory: data_text/apollo13
+2026-06-20 10:34:35,023 - INFO - Found 3 text files in apollo13
+2026-06-20 10:34:35,023 - INFO - Scanning directory: data_text/challenger
+2026-06-20 10:34:35,023 - INFO - Found 3 text files in challenger
+2026-06-20 10:34:35,024 - INFO - Total text files to process: 12
+2026-06-20 10:34:35,024 - INFO - Files by mission:
+2026-06-20 10:34:35,024 - INFO -   apollo_11: 6 files
+2026-06-20 10:34:35,024 - INFO -   apollo_13: 3 files
+2026-06-20 10:34:35,024 - INFO -   challenger: 3 files
+2026-06-20 10:34:35,024 - INFO - Processing: data_text/apollo11/Apollo_11_Flight_Plan_HSK_textract_full_text.txt
+2026-06-20 10:34:35,398 - INFO -   -> 643 chunks | added=0 updated=0 skipped=643
+2026-06-20 10:34:35,398 - INFO - Processing: data_text/apollo11/a11transcript_pao_textract_full_text.txt
+2026-06-20 10:34:37,491 - INFO -   -> 3016 chunks | added=0 updated=0 skipped=3016
+2026-06-20 10:34:37,491 - INFO - Processing: data_text/apollo11/a11transcript_tec_textract_full_text.txt
+2026-06-20 10:34:39,126 - INFO -   -> 2315 chunks | added=0 updated=0 skipped=2315
+2026-06-20 10:34:39,126 - INFO - Processing: data_text/apollo11/a11transscript_cm_textract_full_text.txt
+2026-06-20 10:34:39,641 - INFO -   -> 786 chunks | added=0 updated=0 skipped=786
+2026-06-20 10:34:39,642 - INFO - Processing: data_text/apollo11/19900066485_textract_full_text.txt
+2026-06-20 10:34:40,309 - INFO -   -> 1032 chunks | added=0 updated=0 skipped=1032
+2026-06-20 10:34:40,310 - INFO - Processing: data_text/apollo11/NASA_NTRS_Archive_19710015566_textract_full_text.txt
+2026-06-20 10:34:41,195 - INFO -   -> 1352 chunks | added=0 updated=0 skipped=1352
+2026-06-20 10:34:41,195 - INFO - Processing: data_text/apollo13/AS13_PAO_textract_full_text.txt
+2026-06-20 10:34:44,037 - INFO -   -> 3598 chunks | added=0 updated=0 skipped=3598
+2026-06-20 10:34:44,038 - INFO - Processing: data_text/apollo13/AS13_TEC_textract_full_text.txt
+2026-06-20 10:34:46,155 - INFO -   -> 3039 chunks | added=0 updated=0 skipped=3039
+2026-06-20 10:34:46,155 - INFO - Processing: data_text/apollo13/AS13_CM_textract_full_text.txt
+2026-06-20 10:34:46,251 - INFO -   -> 126 chunks | added=0 updated=0 skipped=126
+2026-06-20 10:34:46,251 - INFO - Processing: data_text/challenger/109-AAG_STS-51L_Mission_Audio_transcript.txt
+2026-06-20 10:34:46,446 - INFO -   -> 272 chunks | added=0 updated=0 skipped=272
+2026-06-20 10:34:46,446 - INFO - Processing: data_text/challenger/107-AAG_STS-51L_Mission_Audio_transcript.txt
+2026-06-20 10:34:46,761 - INFO -   -> 393 chunks | added=0 updated=0 skipped=393
+2026-06-20 10:34:46,761 - INFO - Processing: data_text/challenger/108-AAG_STS-51L_Mission_Audio_transcript.txt
+2026-06-20 10:34:47,008 - INFO -   -> 350 chunks | added=0 updated=0 skipped=350
+2026-06-20 10:34:47,008 - INFO - ============================================================
+2026-06-20 10:34:47,008 - INFO - PROCESSING COMPLETE
+2026-06-20 10:34:47,008 - INFO - ============================================================
+2026-06-20 10:34:47,008 - INFO - Files processed:               12
+2026-06-20 10:34:47,008 - INFO - Total chunks created:          16922
+2026-06-20 10:34:47,009 - INFO - Documents added to collection: 0
+2026-06-20 10:34:47,009 - INFO - Documents updated:             0
+2026-06-20 10:34:47,009 - INFO - Documents skipped:             16922
+2026-06-20 10:34:47,009 - INFO - Errors:                        0
+2026-06-20 10:34:47,009 - INFO - Processing time:               11.99 seconds
+2026-06-20 10:34:47,009 - INFO - 
+Mission breakdown:
+2026-06-20 10:34:47,009 - INFO -   apollo_11: 6 files, 9144 chunks
+2026-06-20 10:34:47,009 - INFO -     Added: 0, Updated: 0, Skipped: 9144
+2026-06-20 10:34:47,009 - INFO -   apollo_13: 3 files, 6763 chunks
+2026-06-20 10:34:47,009 - INFO -     Added: 0, Updated: 0, Skipped: 6763
+2026-06-20 10:34:47,009 - INFO -   challenger: 3 files, 1015 chunks
+2026-06-20 10:34:47,009 - INFO -     Added: 0, Updated: 0, Skipped: 1015
+2026-06-20 10:34:47,012 - INFO - 
+Collection:               nasa_space_missions_text
+2026-06-20 10:34:47,012 - INFO - Total docs in collection: 16922
+2026-06-20 10:34:47,012 - INFO - Pipeline completed successfully!
+2026-06-20 10:34:54,213 - INFO - Initializing ChromaDB Embedding Pipeline...
+2026-06-20 10:34:54,803 - INFO - Initialized collection 'nasa_space_missions_text' with 16922 existing documents.
+2026-06-20 10:34:54,803 - INFO - Starting text data processing with update mode: skip
+2026-06-20 10:34:54,804 - INFO - Total text files to process: 0
+2026-06-20 10:34:54,804 - INFO - Files by mission:
+2026-06-20 10:34:54,804 - WARNING - No text files found to process.
+2026-06-20 10:34:54,804 - INFO - ============================================================
+2026-06-20 10:34:54,804 - INFO - PROCESSING COMPLETE
+2026-06-20 10:34:54,804 - INFO - ============================================================
+2026-06-20 10:34:54,804 - INFO - Files processed:               0
+2026-06-20 10:34:54,804 - INFO - Total chunks created:          0
+2026-06-20 10:34:54,804 - INFO - Documents added to collection: 0
+2026-06-20 10:34:54,804 - INFO - Documents updated:             0
+2026-06-20 10:34:54,804 - INFO - Documents skipped:             0
+2026-06-20 10:34:54,804 - INFO - Errors:                        0
+2026-06-20 10:34:54,804 - INFO - Processing time:               0.00 seconds
+2026-06-20 10:34:54,804 - INFO - 
+Mission breakdown:
+2026-06-20 10:34:54,809 - INFO - 
+Collection:               nasa_space_missions_text
+2026-06-20 10:34:54,809 - INFO - Total docs in collection: 16922
+2026-06-20 10:34:54,809 - INFO - Pipeline completed successfully!
+2026-06-21 16:45:17,567 - INFO - Initializing ChromaDB Embedding Pipeline...
+2026-06-21 16:45:18,119 - INFO - Initialized collection 'nasa_space_missions_text' with 16922 existing documents.
+2026-06-21 16:45:18,120 - INFO - Starting text data processing with update mode: skip
+2026-06-21 16:45:18,120 - INFO - Scanning directory: data_text/apollo11
+2026-06-21 16:45:18,120 - INFO - Found 6 text files in apollo11
+2026-06-21 16:45:18,120 - INFO - Scanning directory: data_text/apollo13
+2026-06-21 16:45:18,120 - INFO - Found 3 text files in apollo13
+2026-06-21 16:45:18,121 - INFO - Scanning directory: data_text/challenger
+2026-06-21 16:45:18,121 - INFO - Found 3 text files in challenger
+2026-06-21 16:45:18,121 - INFO - Total text files to process: 12
+2026-06-21 16:45:18,121 - INFO - Files by mission:
+2026-06-21 16:45:18,121 - INFO -   apollo_11: 6 files
+2026-06-21 16:45:18,121 - INFO -   apollo_13: 3 files
+2026-06-21 16:45:18,121 - INFO -   challenger: 3 files
+2026-06-21 16:45:18,121 - INFO - Processing: data_text/apollo11/Apollo_11_Flight_Plan_HSK_textract_full_text.txt
+2026-06-21 16:45:18,459 - INFO -   -> 643 chunks | added=0 updated=0 skipped=643
+2026-06-21 16:45:18,459 - INFO - Processing: data_text/apollo11/a11transcript_pao_textract_full_text.txt
+2026-06-21 16:45:20,213 - INFO -   -> 3016 chunks | added=0 updated=0 skipped=3016
+2026-06-21 16:45:20,213 - INFO - Processing: data_text/apollo11/a11transcript_tec_textract_full_text.txt
+2026-06-21 16:45:21,488 - INFO -   -> 2315 chunks | added=0 updated=0 skipped=2315
+2026-06-21 16:45:21,488 - INFO - Processing: data_text/apollo11/a11transscript_cm_textract_full_text.txt
+2026-06-21 16:45:21,999 - INFO -   -> 786 chunks | added=0 updated=0 skipped=786
+2026-06-21 16:45:21,999 - INFO - Processing: data_text/apollo11/19900066485_textract_full_text.txt
+2026-06-21 16:45:22,579 - INFO -   -> 1032 chunks | added=0 updated=0 skipped=1032
+2026-06-21 16:45:22,579 - INFO - Processing: data_text/apollo11/NASA_NTRS_Archive_19710015566_textract_full_text.txt
+2026-06-21 16:45:23,398 - INFO -   -> 1352 chunks | added=0 updated=0 skipped=1352
+2026-06-21 16:45:23,398 - INFO - Processing: data_text/apollo13/AS13_PAO_textract_full_text.txt
+2026-06-21 16:45:25,484 - INFO -   -> 3598 chunks | added=0 updated=0 skipped=3598
+2026-06-21 16:45:25,485 - INFO - Processing: data_text/apollo13/AS13_TEC_textract_full_text.txt
+2026-06-21 16:45:27,660 - INFO -   -> 3039 chunks | added=0 updated=0 skipped=3039
+2026-06-21 16:45:27,660 - INFO - Processing: data_text/apollo13/AS13_CM_textract_full_text.txt
+2026-06-21 16:45:27,743 - INFO -   -> 126 chunks | added=0 updated=0 skipped=126
+2026-06-21 16:45:27,743 - INFO - Processing: data_text/challenger/109-AAG_STS-51L_Mission_Audio_transcript.txt
+2026-06-21 16:45:27,908 - INFO -   -> 272 chunks | added=0 updated=0 skipped=272
+2026-06-21 16:45:27,908 - INFO - Processing: data_text/challenger/107-AAG_STS-51L_Mission_Audio_transcript.txt
+2026-06-21 16:45:28,132 - INFO -   -> 393 chunks | added=0 updated=0 skipped=393
+2026-06-21 16:45:28,132 - INFO - Processing: data_text/challenger/108-AAG_STS-51L_Mission_Audio_transcript.txt
+2026-06-21 16:45:28,353 - INFO -   -> 350 chunks | added=0 updated=0 skipped=350
+2026-06-21 16:45:28,353 - INFO - ============================================================
+2026-06-21 16:45:28,353 - INFO - PROCESSING COMPLETE
+2026-06-21 16:45:28,353 - INFO - ============================================================
+2026-06-21 16:45:28,353 - INFO - Files processed:               12
+2026-06-21 16:45:28,353 - INFO - Total chunks created:          16922
+2026-06-21 16:45:28,353 - INFO - Documents added to collection: 0
+2026-06-21 16:45:28,353 - INFO - Documents updated:             0
+2026-06-21 16:45:28,353 - INFO - Documents skipped:             16922
+2026-06-21 16:45:28,353 - INFO - Errors:                        0
+2026-06-21 16:45:28,353 - INFO - Processing time:               10.23 seconds
+2026-06-21 16:45:28,353 - INFO - 
+Mission breakdown:
+2026-06-21 16:45:28,354 - INFO -   apollo_11: 6 files, 9144 chunks
+2026-06-21 16:45:28,354 - INFO -     Added: 0, Updated: 0, Skipped: 9144
+2026-06-21 16:45:28,354 - INFO -   apollo_13: 3 files, 6763 chunks
+2026-06-21 16:45:28,354 - INFO -     Added: 0, Updated: 0, Skipped: 6763
+2026-06-21 16:45:28,354 - INFO -   challenger: 3 files, 1015 chunks
+2026-06-21 16:45:28,354 - INFO -     Added: 0, Updated: 0, Skipped: 1015
+2026-06-21 16:45:28,356 - INFO - 
+Collection:               nasa_space_missions_text
+2026-06-21 16:45:28,357 - INFO - Total docs in collection: 16922
+2026-06-21 16:45:28,357 - INFO - Pipeline completed successfully!
+2026-06-21 16:48:02,757 - INFO - Initializing ChromaDB Embedding Pipeline...
+2026-06-21 16:48:03,345 - INFO - Initialized collection 'nasa_space_missions_text' with 16922 existing documents.
+2026-06-21 16:48:03,345 - INFO - Starting text data processing with update mode: skip
+2026-06-21 16:48:03,345 - INFO - Scanning directory: data_text/apollo11
+2026-06-21 16:48:03,345 - INFO - Found 6 text files in apollo11
+2026-06-21 16:48:03,345 - INFO - Scanning directory: data_text/apollo13
+2026-06-21 16:48:03,346 - INFO - Found 3 text files in apollo13
+2026-06-21 16:48:03,346 - INFO - Scanning directory: data_text/challenger
+2026-06-21 16:48:03,346 - INFO - Found 3 text files in challenger
+2026-06-21 16:48:03,346 - INFO - Total text files to process: 12
+2026-06-21 16:48:03,346 - INFO - Files by mission:
+2026-06-21 16:48:03,346 - INFO -   apollo_11: 6 files
+2026-06-21 16:48:03,346 - INFO -   apollo_13: 3 files
+2026-06-21 16:48:03,346 - INFO -   challenger: 3 files
+2026-06-21 16:48:03,346 - INFO - Processing: data_text/apollo11/Apollo_11_Flight_Plan_HSK_textract_full_text.txt
+2026-06-21 16:48:03,684 - INFO -   -> 643 chunks | added=0 updated=0 skipped=643
+2026-06-21 16:48:03,684 - INFO - Processing: data_text/apollo11/a11transcript_pao_textract_full_text.txt
+2026-06-21 16:48:05,281 - INFO -   -> 3016 chunks | added=0 updated=0 skipped=3016
+2026-06-21 16:48:05,281 - INFO - Processing: data_text/apollo11/a11transcript_tec_textract_full_text.txt
+2026-06-21 16:48:06,892 - INFO -   -> 2315 chunks | added=0 updated=0 skipped=2315
+2026-06-21 16:48:06,892 - INFO - Processing: data_text/apollo11/a11transscript_cm_textract_full_text.txt
+2026-06-21 16:48:07,284 - INFO -   -> 786 chunks | added=0 updated=0 skipped=786
+2026-06-21 16:48:07,284 - INFO - Processing: data_text/apollo11/19900066485_textract_full_text.txt
+2026-06-21 16:48:07,891 - INFO -   -> 1032 chunks | added=0 updated=0 skipped=1032
+2026-06-21 16:48:07,891 - INFO - Processing: data_text/apollo11/NASA_NTRS_Archive_19710015566_textract_full_text.txt
+2026-06-21 16:48:08,723 - INFO -   -> 1352 chunks | added=0 updated=0 skipped=1352
+2026-06-21 16:48:08,724 - INFO - Processing: data_text/apollo13/AS13_PAO_textract_full_text.txt
+2026-06-21 16:48:10,824 - INFO -   -> 3598 chunks | added=0 updated=0 skipped=3598
+2026-06-21 16:48:10,825 - INFO - Processing: data_text/apollo13/AS13_TEC_textract_full_text.txt
+2026-06-21 16:48:13,249 - INFO -   -> 3039 chunks | added=0 updated=0 skipped=3039
+2026-06-21 16:48:13,250 - INFO - Processing: data_text/apollo13/AS13_CM_textract_full_text.txt
+2026-06-21 16:48:13,325 - INFO -   -> 126 chunks | added=0 updated=0 skipped=126
+2026-06-21 16:48:13,325 - INFO - Processing: data_text/challenger/109-AAG_STS-51L_Mission_Audio_transcript.txt
+2026-06-21 16:48:13,502 - INFO -   -> 272 chunks | added=0 updated=0 skipped=272
+2026-06-21 16:48:13,502 - INFO - Processing: data_text/challenger/107-AAG_STS-51L_Mission_Audio_transcript.txt
+2026-06-21 16:48:13,722 - INFO -   -> 393 chunks | added=0 updated=0 skipped=393
+2026-06-21 16:48:13,722 - INFO - Processing: data_text/challenger/108-AAG_STS-51L_Mission_Audio_transcript.txt
+2026-06-21 16:48:13,935 - INFO -   -> 350 chunks | added=0 updated=0 skipped=350
+2026-06-21 16:48:13,936 - INFO - ============================================================
+2026-06-21 16:48:13,936 - INFO - PROCESSING COMPLETE
+2026-06-21 16:48:13,936 - INFO - ============================================================
+2026-06-21 16:48:13,936 - INFO - Files processed:               12
+2026-06-21 16:48:13,936 - INFO - Total chunks created:          16922
+2026-06-21 16:48:13,936 - INFO - Documents added to collection: 0
+2026-06-21 16:48:13,936 - INFO - Documents updated:             0
+2026-06-21 16:48:13,936 - INFO - Documents skipped:             16922
+2026-06-21 16:48:13,936 - INFO - Errors:                        0
+2026-06-21 16:48:13,936 - INFO - Processing time:               10.59 seconds
+2026-06-21 16:48:13,937 - INFO - 
+Mission breakdown:
+2026-06-21 16:48:13,937 - INFO -   apollo_11: 6 files, 9144 chunks
+2026-06-21 16:48:13,937 - INFO -     Added: 0, Updated: 0, Skipped: 9144
+2026-06-21 16:48:13,937 - INFO -   apollo_13: 3 files, 6763 chunks
+2026-06-21 16:48:13,937 - INFO -     Added: 0, Updated: 0, Skipped: 6763
+2026-06-21 16:48:13,937 - INFO -   challenger: 3 files, 1015 chunks
+2026-06-21 16:48:13,937 - INFO -     Added: 0, Updated: 0, Skipped: 1015
+2026-06-21 16:48:13,940 - INFO - 
+Collection:               nasa_space_missions_text
+2026-06-21 16:48:13,940 - INFO - Total docs in collection: 16922
+2026-06-21 16:48:13,940 - INFO - Pipeline completed successfully!

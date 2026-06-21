@@ -1,0 +1,75 @@
+{
+  "aggregate_averages": {},
+  "results": [
+    {
+      "question": "What was the main objective of Apollo 11?",
+      "category": "overview",
+      "reference": "Apollo 11's main objective was to land humans on the Moon and return them safely to Earth.",
+      "retrieved_contexts": [
+        "ISSION OBJECTIVES\nThe single primary mission objective for the Apollo 11 mission (as defined in the\nNASA Headquarters document OMSF M-D MA 500-11 (SE 010-000-1) entitled \"Apollo Flight\nMission Assignments\" and prepared July 11, 1969) was to perform a manned lunar land-\ning and return safely to earth. In addition to the single primary objective, 11 sec-\nondary objectives were delineated from the following two general categories:\n1. To perform selenological inspection and sampling\n2.",
+        "e\nT\ntemperature (transducer location)\nTV\ntelevision\nTAN\nTananarive\nTCA\nthrust chamber assembly\nU.S.\nUnited States\nV\nvolt\nVAN\nVanguard tracking ship\nvhf\nvery high frequency\nVOX\nvoice-operated transmitter\nW\nwest\nWh\nwatt-hour\nX, Y, Z\nspacecraft axes\n°C\ndegrees Centigrade\nix\n\n--- PAGE 12 ---\n°F\ndegrees Fahrenheit\na\nangle of attack\nH\nmi cro-\n\n--- PAGE 13 ---\n1. SUMMARY\nThe purpose of the Apollo 11 mission was to land men on the lunar surface and to\nreturn them safely to earth.",
+        "the moon and returning them safely to earth before the end of the decade, had been\naccomplished.\n2. INTRODUCTION\nThe Apollo 11 mission was the 11th in a series of flights using Apollo flight hard-\nware and was the first lunar landing mission of the Apollo Program. It was also the fifth\nmanned flight of the command and service modules and the third manned flight of the lunar\nmodule. The purpose of the mission was to perform a manned lunar landing and to return\nthe men safely to earth."
+      ],
+      "answer": "The main objective of the Apollo 11 mission was to perform a manned lunar landing and return safely to Earth. This primary mission objective was defined in NASA Headquarters document OMSF M-D MA 500-11 and aimed to land humans on the lunar surface and ensure their safe return to Earth. Additionally, the mission aimed to achieve selenological inspection and sampling as part of its secondary objectives.",
+      "scores": {
+        "error": "RAGAS import failed: No module named 'langchain_community.chat_models.vertexai'"
+      }
+    },
+    {
+      "question": "What problem occurred during Apollo 13?",
+      "category": "emergency",
+      "reference": "Apollo 13 suffered an oxygen tank explosion that caused a major in-flight emergency and forced the mission to abort the lunar landing.",
+      "retrieved_contexts": [
+        "e Apollo 13\nis 139 164 nautical miles from the earth travelling at a\nspeed of 4745 feet per second. Also like to clarify again\nthe situation with respect to the super critical helium tank\nand the burst disk which ruptured at about 180 hours when\nthe pressure got up to some 1937 pounds per square inch. This\nburst disk is in the tank for the express purpose of keeping\n\n--- PAGE 670 ---\nAPOLLO 13 MISSION COMMENTARY 4-16-70 CST 3:19A GET 110:06:00 474/2\nPAO\npressure from going above levels which",
+        "oxygen from the lunar module.\nCAPCOM\nApollo 13, how do you read.\nCAP COM Okay, 13, this is HOuston. It appears that\nwe are losing 02 flow -\nEND OF TAPE\n\n--- PAGE 242 ---\nAPOLLO 13 MISSION COMMENTARY 4-13-70 CST 10:10P GET 56:57:00 175/1\nCAP COM Okay 13, this is Houston. It appears\nto us that you're loosing 02 flow through fuel cell three.\nSo we want you to close the react valve on fuel cell three.\nIt looks like fuel cell 1 and 2 are trying to hold up okay.\nYou copy?",
+        "id if they had any problem getting\nto sleep or if they weren't particularly sleepy at the time they\nfinished their other scheduled activities, that they might\nreview some of their lunar charts before turning in for the\n10 hours rest period. At this time Apollo 13 is 131 948\nnautical miles from earth, travelling at a speed of 4 368\nfeet per second. At 34 hours 43 minutes this is Mission\nControl, Houston.\nCAPCOM\nApollo 13, Houston.\nSC\nGo ahead, Houston.\nCAP COM Just info on your PTC, Jim."
+      ],
+      "answer": "During the Apollo 13 mission, a critical issue arose when a burst disk ruptured in a supercritical helium tank. This incident happened around 180 hours into the mission when the pressure inside the tank reached approximately 1937 pounds per square inch. The burst disk, designed to regulate pressure levels, failed, leading to a dangerous situation onboard the spacecraft. Additionally, there were concerns about losing oxygen flow through fuel cell three, prompting instructions from mission control to address the problem by closing the react valve on fuel cell three. These challenges forced the crew and ground control to work together to overcome potentially life-threatening obstacles and safely return the astronauts back to Earth.",
+      "scores": {
+        "error": "RAGAS import failed: No module named 'langchain_community.chat_models.vertexai'"
+      }
+    },
+    {
+      "question": "What caused the Challenger disaster?",
+      "category": "disaster_analysis",
+      "reference": "The Challenger disaster was caused by the failure of an O-ring seal in the right solid rocket booster, which allowed hot gases to escape.",
+      "retrieved_contexts": [
+        "after launch from here at the Kennedy Space Center\n\n[158:15] spk_4: I regret that I have to report\n\n[158:18] spk_4: That based on very preliminary searches of the ocean where the Challenger impacted this morning\n\n[158:25] spk_4: These searches have not revealed any evidence that the crew of Challenger survived\n\n[158:32] spk_4: The dedicated crew members of Challenger\n\n[158:35] spk_4: Our commander Francis Dick Scobie\n\n[158:40] spk_4: Pilot Michael J Smith",
+        "e vehicle to provide weather protection during inclement weather and the count resumed at 8:17 p.m. Sunday with the rotating service structure moved away from the vehicle at about that time Monday's launch attempt was scrubbed after strong gusting winds exceeded limits set for an emergency return to launch site or RTLS landing here at KFC\n\n[21:23] spk_2: Filling of the shuttle shuttle Challenger's external tank with its slight load of liquid hydrogen and liquid oxygen was delayed this morning an",
+        "that any significant buildup could pose a potential hazard by breaking off at lift off and damaging the shuttle's heat protection time\n\n[41:55] spk_0: This is shuttle launch and we're about 6 minutes away from resuming the countdown for Mission 51 the 25th for the Space shuttle transportation system and the 10th mission for Challenger\n\n[42:14] spk_0: The ice inspection team has completed its inspection of the tank and is preparing to leave the pad at this time"
+      ],
+      "answer": "The Challenger disaster was caused by the failure of an O-ring seal in the right solid rocket booster. The O-ring failed to seal properly due to the cold temperatures at the time of the launch. This failure led to the destruction of the Challenger spacecraft shortly after liftoff on January 28, 1986. The O-ring issue was known prior to the launch, but management decisions led to the launch proceeding despite concerns about the cold weather affecting the O-rings.",
+      "scores": {
+        "error": "RAGAS import failed: No module named 'langchain_community.chat_models.vertexai'"
+      }
+    },
+    {
+      "question": "Who were the crew members of Apollo 11?",
+      "category": "crew",
+      "reference": "The Apollo 11 crew members were Neil Armstrong, Buzz Aldrin, and Michael Collins.",
+      "retrieved_contexts": [
+        "e of the Apollo 11 mission was to land men on the lunar surface and to\nreturn them safely to earth. The members of the crew were Neil A. Armstrong, Commander;\nMichael Collins, Command Module Pilot; and Edwin E. Aldrin, Jr., Lunar Module Pilot.\nThe space vehicle was launched from Kennedy Space Center, Florida, at 8:32:00 a.m.\ne.s.t., July 16, 1969. The activities during earth orbit checkout, translunar injection,",
+        "llo 11 mission was to land men on the lunar surface\nand to return them safely. The crew was Neil A. Armstrong, Commander;\nMichael Collins, Command Module (CM) Pilot; and Edwin E. Aldrin, Jr.,\nLunar Module (LM) Pilot.\nThe space vehicle was launched from Kennedy Space Center (KSC), Florida,\nat 9:32:00 a.m. Eastern Daylight Time (EDT), July 16, 1969. The activi-\nties during earth orbit checkout, Translunar Injection (TLI), trans-\nposition and docking, spacecraft ejection, and translunar coast were",
+        "nd SN John M. Wolfram of\nFort Atkinson, Wisconsin. The Helo's crew consists of pilot Lt. Richard J. Barrett of\nSquannanoa, North Carolina, copilot Lt. George Ro. Conn, Imperial Beach, California,\nAWH2 Curtis E. Hill, Black Rock Arkansas, and AWH2 Richard B. Seaton, Hibbing,\nMinnesota.\nCAPCOM\nApollo 11 -\n»» END OF TAPE <<<<\nCDT 11:00 - GET 194:28 - 566/1\nPAO\nApollo 11's distance now 5411 nautical miles; velocity 22,642 feet per second.\nCAPCOM\nApollo 11, Houston."
+      ],
+      "answer": "The crew members of Apollo 11 were Neil A. Armstrong (Commander), Michael Collins (Command Module Pilot), and Edwin E. Aldrin, Jr. (Lunar Module Pilot). The mission of Apollo 11 was to land men on the lunar surface and safely return them to Earth. The spacecraft was launched from Kennedy Space Center, Florida, on July 16, 1969.",
+      "scores": {
+        "error": "RAGAS import failed: No module named 'langchain_community.chat_models.vertexai'"
+      }
+    },
+    {
+      "question": "Why was the Lunar Module important in Apollo missions?",
+      "category": "technical_systems",
+      "reference": "The Lunar Module was designed to carry astronauts from lunar orbit to the Moon's surface and back to the Command Module.",
+      "retrieved_contexts": [
+        "d Lunar Module\nPilot transferred to the lunar module during the translunar phase to make an initial\ninspection and to prepare the lunar module for a systems check in lunar orbit.\n2\n\n--- PAGE 15 ---\nThe spacecraft was inserted into a 60- by 169.7-mile lunar orbit at approximately\n76 hours. Four hours later, a lunar orbit circularization maneuver was performed to\nplace the spacecraft in a 65.7- by 53.8-mile orbit.",
+        "the television\ncamera was deployed so that most of the lunar module was included in its view field.\nThe crew activated the scientific experiments, which included a solar wind detector, a\npassive seismometer, and a laser retroreflector. The Lunar Module Pilot evaluated his\nability to operate and move about and was able to translate rapidly and with confidence.\nForty-seven pounds of lunar surface material were collected to be returned for analysis.",
+        "the lunar\nmodule were unsuccessful, and it is doubtful that the Command Module Pilot's observations\nwere ever directed to the area where the lunar module was actually located.\nNear the end of the lunar surface stay, the location of the landed lunar module was\ndetermined from the lunar module rendezvous-radar tracking data (confirmed postflight\nby using descent photographic data). However, the Command Module Pilot's activities"
+      ],
+      "answer": "The Lunar Module (LM) was a crucial component in Apollo missions for several key reasons:\n\n1. **Landing on the Moon**: The primary purpose of the Lunar Module was to transport astronauts from the Command Module in lunar orbit down to the surface of the Moon and back. It provided the means for astronauts to land on the Moon, conduct scientific experiments, and collect samples.\n\n2. **Moon Exploration and Experiments**: Once on the Moon, the LM allowed astronauts to explore the lunar surface, deploy scientific instruments, and collect samples. During Apollo 11, for example, the LM pilot evaluated his ability to operate on the Moon, collected lunar surface material, and activated scientific experiments like a solar wind detector and a passive seismometer.\n\n3. **Return to Earth**: After completing their activities on the Moon, the LM served as the vehicle to lift off from the lunar surface and rendezvous with the Command Module for the journey back to Earth. It was crucial for returning astronauts safely to Earth.\n\nOverall, the Lunar Module played a vital role in enabling humans to land on the Moon, conduct experiments, and safely return to Earth during the Apollo missions.",
+      "scores": {
+        "error": "RAGAS import failed: No module named 'langchain_community.chat_models.vertexai'"
+      }
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+[
+    {
+      "category": "overview",
+      "question": "What was the main objective of Apollo 11?",
+      "reference": "Apollo 11's main objective was to land humans on the Moon and return them safely to Earth."
+    },
+    {
+      "category": "emergency",
+      "question": "What problem occurred during Apollo 13?",
+      "reference": "Apollo 13 suffered an oxygen tank explosion that caused a major in-flight emergency and forced the mission to abort the lunar landing."
+    },
+    {
+      "category": "disaster_analysis",
+      "question": "What caused the Challenger disaster?",
+      "reference": "The Challenger disaster was caused by the failure of an O-ring seal in the right solid rocket booster, which allowed hot gases to escape."
+    },
+    {
+      "category": "crew",
+      "question": "Who were the crew members of Apollo 11?",
+      "reference": "The Apollo 11 crew members were Neil Armstrong, Buzz Aldrin, and Michael Collins."
+    },
+    {
+      "category": "technical_systems",
+      "question": "Why was the Lunar Module important in Apollo missions?",
+      "reference": "The Lunar Module was designed to carry astronauts from lunar orbit to the Moon's surface and back to the Command Module."
+    }
+  ]
+  
